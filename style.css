@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+.head {
+  font-size: 50px;
+  color: #09c;
+}
+h3 {
+  color: #333b36;
+}
+button {
+  width: 30%;
+  height: 40px;
+  background-color: #09c;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 2px 6px 10px #09c;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  transition: .6s;
+  user-select: none;
+}
+button:hover {
+  background-color: rgb(130, 177, 248);
+  color: #081a80;
+  box-shadow: inset 2px 1px 10px #ffffff8a;
+}
+.contaner .quote {
+  transition: 1s;
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+  margin: 40px 20px;
+  height: 70px;
+}
+.contaner .grop {
+  margin-top: 30px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5px;
+}
+.contaner .grop .author {
+  color: #333;
+  background-color: #23609d44;
+  transition: 1s;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contaner .grop img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
